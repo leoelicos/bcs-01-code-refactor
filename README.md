@@ -30,11 +30,7 @@ No installation is needed.
 
 ### Deployed application
 
-![Screenshot](./assets/images/application-screenshot.jpg)
-
-### Application Code
-
-![Screenshot](./assets/images/repo-screenshot.png)
+![Screenshot](./assets/images/application-screenshot.png)
 
 ## Contributors
 
