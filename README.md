@@ -28,13 +28,13 @@ No installation is needed.
 
 ## Screenshots
 
-### Deployed application / GitHub Pages
+### Deployed application
 
-![Screenshot](./assets/images/273646317_962591257705382_1416083318525114759_n.jpg)
+![Screenshot](./assets/images/application-screenshot.jpg)
 
-### Application Code / GitHub Repository
+### Application Code
 
-![Screenshot](./assets/images/273646317_962591257705382_1416083318525114759_n.jpg)
+![Screenshot](./assets/images/repo-screenshot.png)
 
 ## Contributors
 
