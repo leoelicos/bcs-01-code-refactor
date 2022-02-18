@@ -1,11 +1,43 @@
-# Bootcamp
+# Code Refactor
 
-## Week 1 Homework
+## Description
 
-### Application Code: GitHub Repository
+Any advertising agency needs good SEO to be found by potential clients searching for an advertising agency online.
 
-https://github.com/leoelicos/bcs-01-code-refactor/
+I built this website to illustrate the importance of accessibility standards, because a codebase with bad accessibility standards is hard to maintain and also ranks lower in SEO.
 
-### Live URL: GitHub Page
+While building this project, I learned about the importance of semantic HTML elements and keeping them separate from styling. I also learned to add attributes to icons and images to help people with disabilities.
 
-https://leoelicos.github.io/bcs-01-code-refactor/
+## Table of Contents
+
+-  [Installation](#installation)
+-  [Usage](#usage)
+-  [Credits](#credits)
+-  [License](#license)
+
+## Installation
+
+No installation is needed.
+
+## Usage
+
+-  To view the Deployed Application on GitHub Pages, go to [Live URL: GitHub Page](https://leoelicos.github.io/bcs-01-code-refactor/)
+
+-  _Screenshot of Deployed Application_
+   ![Screenshot](./assets/images/273646317_962591257705382_1416083318525114759_n.jpg)
+
+-  To view the Application Code on GitHub Repository, go to [Application Code: GitHub Repository](https://github.com/leoelicos/bcs-01-code-refactor/)
+
+## Contributors
+
+-  AskBCS Learning Assistant `dsalas` guided me on how to write commit messages.
+
+-  I followed [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) on how to write this README.
+
+## License
+
+&copy; Leo Wong <leoelicos@gmail.com>
+
+Licensed under the [MIT License](./LICENSE.txt).
+
+---
