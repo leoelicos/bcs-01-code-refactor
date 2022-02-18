@@ -1,200 +1,169 @@
+/*************
+ * Universal * 
+ *************/
+
 * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
 
+/********
+ * Body *
+ ********/
+
 body {
-	background-color: #d9dcd6;
+	background-color: #d9dcd6; /* sets the background color for the page */
 }
 
+/**********
+ * Header *
+ **********/
+
 header {
-	padding: 20px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	background-color: #2a607c;
-	color: #ffffff;
+	padding: 20px; /* small space around the name of the company */
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* font stack for the name of the company */
+	background-color: #2a607c; /* dark color for good contrast to text*/
+	color: #ffffff; /* light color for good contrast to background */
 }
 
 header h1 {
-	display: inline-block;
-	font-size: 48px;
+	display: inline-block; /* to align the name of the website at the same level as the links*/
+	font-size: 48px; /* big text for the name of the company*/
 }
 
 header h1 .seo {
-	color: #d9dcd6;
+	color: #d9dcd6; /* make 'seo' stand out from the other letters in 'Horiseo' */
 }
 
 header nav {
-	padding-top: 15px;
-	margin-right: 20px;
-	float: right;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 20px;
+	/* area for links */
+	padding-top: 15px; /* some space above links */
+	margin-right: 20px; /* space at the right of the nav bar */
+	float: right; /* links appear at the right of the page*/
+
+	font-size: 20px; /* medium size for links */
 }
 
 header nav ul {
-	list-style-type: none;
+	list-style-type: none; /* remove default list markers */
 }
 
 header nav ul li {
-	display: inline-block;
-	margin-left: 25px;
+	display: inline-block; /* links appear in a line */
+	margin-left: 25px; /* space between links */
 }
 
-a {
-	color: #ffffff;
-	text-decoration: none;
+header nav ul li a {
+	color: #ffffff; /* white text for links */
+	text-decoration: none; /* remove default underline */
 }
 
-p {
-	font-size: 16px;
-}
+/***********************************
+ * Big Image of the Office Workers *
+ ***********************************/
 
 .hero {
-	height: 800px;
-	width: 100%;
-	margin-bottom: 25px;
-	background-image: url('../images/digital-marketing-meeting.jpg');
-	background-size: cover;
-	background-position: center;
+	height: 800px; /* make big image high enough to fill most of the screen on most browsers */
+	width: 100%; /* make big image fill the screen */
+	margin-bottom: 25px; /* some space to separate image from content */
+	background-image: url('../images/digital-marketing-meeting.jpg'); /* a stock image of a digital marketing meeting */
+	background-size: cover; /* resize image to fit width of viewport */
+	background-position: center; /* position image in the center of viewport */
 }
 
-.float-left {
-	float: left;
-	margin-right: 25px;
-}
-
-.float-right {
-	float: right;
-	margin-left: 25px;
-}
+/*****************************************************
+ * Content: The three long panels at the bottom left *
+ *****************************************************/
 
 .content {
-	width: 75%;
-	display: inline-block;
-	margin-left: 20px;
+	/* the container around the panels */
+	width: 75%; /* make the area fill most of the screen width */
+	display: inline-block; /* make the panels appear adjacent to the benefits */
+	margin-left: 20px; /* leave some space to parent element */
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* font stack for the content */
 }
+
+.content div {
+	/* the panels */
+	margin-bottom: 20px; /* leave some space to the next panel */
+	padding: 50px; /* a space between content and border */
+	height: 300px; /* panel height */
+	background-color: #0072bb; /* darker blue background for description*/
+	color: #ffffff; /* white text for description */
+}
+
+.content img {
+	/* the 3 images inside the panels */
+	max-height: 200px; /* stop the image from growing too much on big screens */
+}
+
+.content .float-left {
+	float: left; /* position image to the left of the text */
+	margin-right: 25px; /* leave some space between image and text */
+}
+
+.content .float-right {
+	float: right; /* position images to the right in content */
+	margin-left: 25px; /* leave some space between image and text */
+}
+
+.content h2 {
+	margin-bottom: 20px; /* leave some space between heading and text */
+	font-size: 36px; /* make content headings slightly larger than context text */
+}
+
+.content p {
+	font-size: 16px; /* set size of content paragraph text */
+}
+
+/****************************************************
+ * Benefits: The vertical panel at the bottom right *
+ ****************************************************/
 
 .benefits {
-	margin-right: 20px;
-	padding: 20px;
-	clear: both;
-	float: right;
-	width: 20%;
-	height: 100%;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background-color: #2589bd;
+	/* container for vertical area */
+	margin-right: 20px; /* leave some space to the edge of the viewport */
+	padding: 20px; /* leave some space between content and edge */
+	float: right; /* moves the container to the right of Content*/
+	width: 20%; /* set the width of area */
+	background-color: #2589bd; /* a slightly lighter blue color than the contents */
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* font stack for the content */
 }
 
-.benefit-lead {
-	margin-bottom: 32px;
-	color: #ffffff;
+.benefits div {
+	/* containers for each benefit */
+	margin-bottom: 32px; /* some space between each benefit */
+	color: #ffffff; /* white color for the benefit text */
 }
 
-.benefit-brand {
-	margin-bottom: 32px;
-	color: #ffffff;
+.benefits h3 {
+	/* headings for each benefit */
+	margin-bottom: 10px; /* space between heading and icon */
+	text-align: center; /* center headings */
 }
 
-.benefit-cost {
-	margin-bottom: 32px;
-	color: #ffffff;
+.benefits img {
+	/* icons for each benefit */
+	display: block; /* have just the icon on the line */
+	margin: 10px auto; /* center the image horizontally and adds some margin at the top and bottom */
+	max-width: 150px; /* don't let the image get too big in larger screens */
 }
 
-.benefit-lead h3 {
-	margin-bottom: 10px;
-	text-align: center;
+.benefits p {
+	font-size: 16px; /* set size of benefits paragraph text */
 }
 
-.benefit-brand h3 {
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-.benefit-cost h3 {
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-.benefit-lead img {
-	display: block;
-	margin: 10px auto;
-	max-width: 150px;
-}
-
-.benefit-brand img {
-	display: block;
-	margin: 10px auto;
-	max-width: 150px;
-}
-
-.benefit-cost img {
-	display: block;
-	margin: 10px auto;
-	max-width: 150px;
-}
-
-.search-engine-optimization {
-	margin-bottom: 20px;
-	padding: 50px;
-	height: 300px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background-color: #0072bb;
-	color: #ffffff;
-}
-
-.online-reputation-management {
-	margin-bottom: 20px;
-	padding: 50px;
-	height: 300px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background-color: #0072bb;
-	color: #ffffff;
-}
-
-.social-media-marketing {
-	margin-bottom: 20px;
-	padding: 50px;
-	height: 300px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background-color: #0072bb;
-	color: #ffffff;
-}
-
-.search-engine-optimization img {
-	max-height: 200px;
-}
-
-.online-reputation-management img {
-	max-height: 200px;
-}
-
-.social-media-marketing img {
-	max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-	margin-bottom: 20px;
-	font-size: 36px;
-}
-
-.online-reputation-management h2 {
-	margin-bottom: 20px;
-	font-size: 36px;
-}
-
-.social-media-marketing h2 {
-	margin-bottom: 20px;
-	font-size: 36px;
-}
+/**********
+ * Footer *
+ **********/
 
 footer {
-	padding: 30px;
-	clear: both;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	text-align: center;
+	padding: 30px; /* leave some space between the content and the border */
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* use the same font family as we did for the header */
+	text-align: center; /* position the footer text in the middle of the footer*/
 }
 
 footer h2 {
-	font-size: 20px;
+	font-size: 20px; /* use a slightly larger size than the paragraph text*/
 }
