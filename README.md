@@ -4,7 +4,7 @@
 
 ### Application Code: GitHub Repository
 
-https://github.com/leoelicos/bcs-01-code-refactor/settings/pages
+https://github.com/leoelicos/bcs-01-code-refactor/
 
 ### Live URL: GitHub Page
 
