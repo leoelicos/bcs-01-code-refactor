@@ -12,6 +12,7 @@ While building this project, I learned about the importance of semantic HTML ele
 
 -  [Installation](#installation)
 -  [Usage](#usage)
+-  [Screenshots](#screenshots)
 -  [Credits](#credits)
 -  [License](#license)
 
@@ -23,10 +24,17 @@ No installation is needed.
 
 -  To view the Deployed Application on GitHub Pages, go to [Live URL: GitHub Page](https://leoelicos.github.io/bcs-01-code-refactor/)
 
--  _Screenshot of Deployed Application_
-   ![Screenshot](./assets/images/273646317_962591257705382_1416083318525114759_n.jpg)
-
 -  To view the Application Code on GitHub Repository, go to [Application Code: GitHub Repository](https://github.com/leoelicos/bcs-01-code-refactor/)
+
+## Screenshots
+
+### Deployed application / GitHub Pages
+
+![Screenshot](./assets/images/273646317_962591257705382_1416083318525114759_n.jpg)
+
+### Application Code / GitHub Repository
+
+![Screenshot](./assets/images/273646317_962591257705382_1416083318525114759_n.jpg)
 
 ## Contributors
 
