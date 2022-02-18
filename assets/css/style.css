@@ -33,7 +33,7 @@ header h1 {
 }
 
 header h1 .seo {
-	color: #d9dcd6; /* make 'seo' stand out from the other letters in 'Horiseo' */
+	color: #d9dcd6; /* darken 'seo' to stand out from other letters in 'Horiseo' */
 }
 
 header nav {
@@ -63,7 +63,7 @@ header nav ul li a {
  * Big Image of the Office Workers *
  ***********************************/
 
-.hero {
+#hero {
 	height: 800px; /* make big image high enough to fill most of the screen on most browsers */
 	width: 100%; /* make big image fill the screen */
 	margin-bottom: 25px; /* some space to separate image from content */
@@ -76,7 +76,7 @@ header nav ul li a {
  * Content: The three long panels at the bottom left *
  *****************************************************/
 
-.content {
+#content {
 	/* the container around the panels */
 	width: 75%; /* make the area fill most of the screen width */
 	display: inline-block; /* make the panels appear adjacent to the benefits */
@@ -84,7 +84,7 @@ header nav ul li a {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* font stack for the content */
 }
 
-.content div {
+#content div {
 	/* the panels */
 	margin-bottom: 20px; /* leave some space to the next panel */
 	padding: 50px; /* a space between content and border */
@@ -93,27 +93,27 @@ header nav ul li a {
 	color: #ffffff; /* white text for description */
 }
 
-.content img {
+#content img {
 	/* the 3 images inside the panels */
 	max-height: 200px; /* stop the image from growing too much on big screens */
 }
 
-.content .float-left {
+#content .float-left {
 	float: left; /* position image to the left of the text */
 	margin-right: 25px; /* leave some space between image and text */
 }
 
-.content .float-right {
+#content .float-right {
 	float: right; /* position images to the right in content */
 	margin-left: 25px; /* leave some space between image and text */
 }
 
-.content h2 {
+#content h2 {
 	margin-bottom: 20px; /* leave some space between heading and text */
 	font-size: 36px; /* make content headings slightly larger than context text */
 }
 
-.content p {
+#content p {
 	font-size: 16px; /* set size of content paragraph text */
 }
 
@@ -121,7 +121,7 @@ header nav ul li a {
  * Benefits: The vertical panel at the bottom right *
  ****************************************************/
 
-.benefits {
+#benefits {
 	/* container for vertical area */
 	margin-right: 20px; /* leave some space to the edge of the viewport */
 	padding: 20px; /* leave some space between content and edge */
@@ -131,26 +131,26 @@ header nav ul li a {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* font stack for the content */
 }
 
-.benefits div {
+#benefits div {
 	/* containers for each benefit */
 	margin-bottom: 32px; /* some space between each benefit */
 	color: #ffffff; /* white color for the benefit text */
 }
 
-.benefits h3 {
+#benefits h3 {
 	/* headings for each benefit */
 	margin-bottom: 10px; /* space between heading and icon */
 	text-align: center; /* center headings */
 }
 
-.benefits img {
+#benefits img {
 	/* icons for each benefit */
 	display: block; /* have just the icon on the line */
 	margin: 10px auto; /* center the image horizontally and adds some margin at the top and bottom */
 	max-width: 150px; /* don't let the image get too big in larger screens */
 }
 
-.benefits p {
+#benefits p {
 	font-size: 16px; /* set size of benefits paragraph text */
 }
 
