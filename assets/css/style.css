@@ -27,16 +27,16 @@ header {
 	color: #ffffff; /* light color for good contrast to background */
 }
 
-header h1 {
+h1 {
 	display: inline-block; /* to align the name of the website at the same level as the links*/
 	font-size: 48px; /* big text for the name of the company*/
 }
 
-header h1 .seo {
+.seo {
 	color: #d9dcd6; /* darken 'seo' to stand out from other letters in 'Horiseo' */
 }
 
-header nav {
+nav {
 	/* area for links */
 	padding-top: 15px; /* some space above links */
 	margin-right: 20px; /* space at the right of the nav bar */
@@ -45,16 +45,16 @@ header nav {
 	font-size: 20px; /* medium size for links */
 }
 
-header nav ul {
+nav ul {
 	list-style-type: none; /* remove default list markers */
 }
 
-header nav ul li {
+nav ul li {
 	display: inline-block; /* links appear in a line */
 	margin-left: 25px; /* space between links */
 }
 
-header nav ul li a {
+nav ul li a {
 	color: #ffffff; /* white text for links */
 	text-decoration: none; /* remove default underline */
 }
@@ -84,8 +84,8 @@ header nav ul li a {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* font stack for the content */
 }
 
-#content div {
-	/* the panels */
+#content article {
+	/* the articles */
 	margin-bottom: 20px; /* leave some space to the next panel */
 	padding: 50px; /* a space between content and border */
 	height: 300px; /* panel height */
@@ -94,7 +94,7 @@ header nav ul li a {
 }
 
 #content img {
-	/* the 3 images inside the panels */
+	/* the 3 images inside the articles */
 	max-height: 200px; /* stop the image from growing too much on big screens */
 }
 
@@ -117,9 +117,9 @@ header nav ul li a {
 	font-size: 16px; /* set size of content paragraph text */
 }
 
-/****************************************************
- * Benefits: The vertical panel at the bottom right *
- ****************************************************/
+/***************************************************
+ * Benefits: The vertical area at the bottom right *
+ ***************************************************/
 
 #benefits {
 	/* container for vertical area */
@@ -131,14 +131,14 @@ header nav ul li a {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* font stack for the content */
 }
 
-#benefits div {
-	/* containers for each benefit */
+#benefits article {
+	/* containers for each article */
 	margin-bottom: 32px; /* some space between each benefit */
 	color: #ffffff; /* white color for the benefit text */
 }
 
 #benefits h3 {
-	/* headings for each benefit */
+	/* headings for each article */
 	margin-bottom: 10px; /* space between heading and icon */
 	text-align: center; /* center headings */
 }
