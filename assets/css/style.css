@@ -98,13 +98,11 @@ nav ul li a {
 	max-height: 200px; /* stop the image from growing too much on big screens */
 }
 
-#search-engine-optimization img,
-#social-media-marketing img {
+#content article:nth-child(odd) img {
 	float: left; /* position these images to the left of the text */
 	margin-right: 25px; /* leave some space between image and text */
 }
-
-#online-reputation-management img {
+#content article:nth-child(even) img {
 	float: right; /* position this image to the right in content */
 	margin-left: 25px; /* leave some space between image and text */
 }
