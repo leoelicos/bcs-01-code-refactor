@@ -98,13 +98,14 @@ nav ul li a {
 	max-height: 200px; /* stop the image from growing too much on big screens */
 }
 
-#content .float-left {
-	float: left; /* position image to the left of the text */
+#search-engine-optimization img,
+#social-media-marketing img {
+	float: left; /* position these images to the left of the text */
 	margin-right: 25px; /* leave some space between image and text */
 }
 
-#content .float-right {
-	float: right; /* position images to the right in content */
+#online-reputation-management img {
+	float: right; /* position this image to the right in content */
 	margin-left: 25px; /* leave some space between image and text */
 }
 
