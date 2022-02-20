@@ -18,7 +18,7 @@ While building this project, I learned about the importance of semantic HTML ele
 
 ## Installation
 
-No installation is needed.
+No installation is needed. The application was created with HTML/CSS.
 
 ## Usage
 
