@@ -13,11 +13,20 @@ While refactoring the code, I learned about the importance of semantic HTML elem
 
 ## Usage
 
--  Click on [Refactored HTML](https://github.com/leoelicos/bcs-01-code-refactor/) to view the refactored code and then click on index.html and style.css to view the refactored code.
+Click on the links below to view the refactored code and the original code on GitHub.
 
--  Click on [Original Codebase]() to view the original code.
+1. Refactored Code
 
--  Click on [Code Refactor App](https://leoelicos.github.io/bcs-01-code-refactor/) to view the app
+   -  [Refactored HTML on GitHub](https://github.com/leoelicos/bcs-01-code-refactor/blob/main/index.html)
+   -  [Refactored CSS on GitHub](https://github.com/leoelicos/bcs-01-code-refactor/blob/main/assets/css/style.css)
+
+2. Original Code
+
+   -  [Original HTML on GitHub](https://github.com/leoelicos/bcs-01-code-refactor/blob/main/assets/unfactored/index-original.html)
+   -  [Original CSS on GitHub](https://github.com/leoelicos/bcs-01-code-refactor/blob/main/assets/unfactored/style-original.css)
+
+3. App
+   -  [Deployed App on GitHub Pages](https://leoelicos.github.io/bcs-01-code-refactor/)
 
 ## Screenshots
 
