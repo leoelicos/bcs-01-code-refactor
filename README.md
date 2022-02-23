@@ -1,38 +1,30 @@
 # Code Refactor
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
 ## Description
 
 Any advertising agency needs good SEO to be found by potential clients searching for an advertising agency online.
 
-I built this website to illustrate the importance of accessibility standards, because a codebase with bad accessibility standards is hard to maintain and also ranks lower in SEO.
+I refactored this code to illustrate the importance of accessibility standards, because a codebase with bad accessibility standards is hard to maintain and also ranks lower in SEO.
 
-While building this project, I learned about the importance of semantic HTML elements and keeping them separate from styling. I also learned to add attributes to icons and images to help people with disabilities.
-
-## Table of Contents
-
--  [Installation](#installation)
--  [Usage](#usage)
--  [Screenshots](#screenshots)
--  [Credits](#credits)
--  [License](#license)
-
-## Installation
-
-No installation is needed. The application was created with HTML/CSS.
+While refactoring the code, I learned about the importance of semantic HTML elements and keeping them separate from styling. I also learned the importance of attributes for icons and images to help people with disabilities access the app.
 
 ## Usage
 
--  To view the Deployed Application on GitHub Pages, go to [Live URL: GitHub Page](https://leoelicos.github.io/bcs-01-code-refactor/)
+-  Click on [Refactored HTML](https://github.com/leoelicos/bcs-01-code-refactor/) to view the refactored code and then click on index.html and style.css to view the refactored code.
 
--  To view the Application Code on GitHub Repository, go to [Application Code: GitHub Repository](https://github.com/leoelicos/bcs-01-code-refactor/)
+-  Click on [Original Codebase]() to view the original code.
+
+-  Click on [Code Refactor App](https://leoelicos.github.io/bcs-01-code-refactor/) to view the app
 
 ## Screenshots
 
-### Deployed application
-
+App
 ![Screenshot](./assets/images/application-screenshot.png)
 
-## Contributors
+## Credits
 
 -  AskBCS Learning Assistant `dsalas` guided me on how to write commit messages.
 
