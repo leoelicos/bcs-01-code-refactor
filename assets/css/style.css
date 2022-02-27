@@ -79,8 +79,9 @@ nav ul li a {
 	/* the container around the panels */
 	width: 75%; /* make the area fill most of the screen width */
 	display: inline-block;
-	margin-left: 20px; /* 
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* font stack for the content */
+	margin-left: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	/* font stack for the content */
 }
 
 #content article {
